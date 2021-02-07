@@ -33,7 +33,7 @@ public class ExampleCommand extends Command {
 
 ```gradle
 	dependencies {
-	        implementation 'com.github.Nuckerr:JDAUtils:Tag'
+	        implementation 'com.github.Nuckerr:JDAUtils:[VERSION // CHECK LATEST RELEASE TAG]'
 	}
 ```
 
@@ -51,6 +51,6 @@ public class ExampleCommand extends Command {
 	<dependency>
 	    <groupId>com.github.Nuckerr</groupId>
 	    <artifactId>JDAUtils</artifactId>
-	    <version>1.0-BETA</version>
+	    <version>[VERSION // CHECK LATEST RELEASE TAG]</version>
 	</dependency>
 ```
