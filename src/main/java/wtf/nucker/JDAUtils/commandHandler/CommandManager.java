@@ -10,11 +10,11 @@ public class CommandManager {
 
     private final JDA bot;
     public static HashMap<String, Command> commandMap;
-    private final String prefix;
+    private final String[] prefixes;
 
-    public CommandManager(JDA jda, String prefix) {
+    public CommandManager(JDA jda, String... prefix) {
         this.bot = jda;
-        this.prefix = prefix;
+        this.prefixes = prefix;
         commandMap = new HashMap<>();
         bot.addEventListener(new LoadupEvent());
         bot.addEventListener(new MessageEvent(this));
@@ -35,7 +35,7 @@ public class CommandManager {
         return commandMap.get(name);
     }
 
-    public String getPrefix() {
-        return prefix;
+    public String[] getPrefixes() {
+        return prefixes;
     }
 }
