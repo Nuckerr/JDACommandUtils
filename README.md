@@ -51,6 +51,6 @@ public class ExampleCommand extends Command {
 	<dependency>
 	    <groupId>com.github.Nuckerr</groupId>
 	    <artifactId>JDAUtils</artifactId>
-	    <version>Tag</version>
+	    <version>1.0-BETA</version>
 	</dependency>
 ```
