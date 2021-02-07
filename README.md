@@ -20,3 +20,37 @@ public class ExampleCommand extends Command {
     }
 }
 ```
+
+##  Import using gradle:
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```gradle
+	dependencies {
+	        implementation 'com.github.Nuckerr:JDAUtils:Tag'
+	}
+```
+
+
+## Import using maven:
+```maven
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+```maven
+	<dependency>
+	    <groupId>com.github.Nuckerr</groupId>
+	    <artifactId>JDAUtils</artifactId>
+	    <version>Tag</version>
+	</dependency>
+```
