@@ -1,0 +1,5 @@
+wtf\nucker\JDAUtils\commandHandler\CommandInfo.class
+wtf\nucker\JDAUtils\commandHandler\CommandManager.class
+wtf\nucker\JDAUtils\commandHandler\MessageEvent.class
+wtf\nucker\JDAUtils\LoadupEvent.class
+wtf\nucker\JDAUtils\commandHandler\Command.class
